@@ -12,16 +12,23 @@
             <h1>Login</h1>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
-            
-            <button>
+
+            <div class="social-sign-in">
+                <button>
                 <img src="/image/icon1.png" alt="Google Icon" style="width: 25px; height: 20px;"> Sign in with Google
-            </button>
+                </button>
 
-            <button>
+                <button>
                 <img src="/image/facebook.png" alt="Facebook Icon" style="width: 25px; height: 20px;"> Sign in with Facebook
-            </button>
+                </button>
+            </div>
 
-            <hr> 
+            <!--create broken lines-->
+            <div class="line-container">
+                <div class="line"></div>
+                <span class="or-text">or</span>
+                <div class="line"></div>
+            </div>
 
             <form>
                 <label for="Email">Email</label>
@@ -29,14 +36,18 @@
                 
                 <label for="password">Password</label>
                 <input type="text" name="password" placeholder="Enter your password">
-                
+
+                <div class="message">
                 <p><a href="#">Forgot your password?</a></p>
-                
+                </div>
+
                 <button class="submit-btn">Login</button>
             </form>
         </div>
 
-        <div class="image"></div>
+        <div class="image">
+    
+        </div>
     </div>
 </body>
 </html>

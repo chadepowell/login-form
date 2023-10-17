@@ -1,44 +1,100 @@
+/* style.css */
+
 .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 70px;
+    border: 2px solid #CCCCCC;  
 }
 
-.left-column{
+.left-column {
     flex: 1;
-    padding: 20px;
+    padding: 30px 40px;
+
 }
 
-.left-column h1{
+.left-column h1 {
     font-size: 30px;
 }
 
-.left-column button{
-    width:40%;
-    margin-bottom: 10px;
-    padding: 15px;
-    border-radius: 10px;
-    border-color: #ECEEEF;
+.message p {
+    text-align: right;
 }
 
-.left-column form{
+.message p a {
+    text-decoration: none;
+}
+
+.social-sign-in {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    margin-bottom: 40px;
+}
+
+.social-sign-in button {
+    all: unset;
+    outline: revert;
+    border-radius: 10px;
+    text-align: center;
+    border-width: 1px;
+    padding: 12px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #ffff;
+    border: 1px solid#CCCCCC; 
+    color: #0a0a0a;   
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 10px;
+}
+
+.or-text {
+    color: #999;
+    font-weight: bold;
+}
+
+.left-column form {
     margin-top: 20px;
 }
 
-.left-column input{
-    width: 30%;
-    margin-bottom: 10px;
-    padding: 15px;
+.left-column label {
+    margin: 10px 10px;
+    display: block;
+    font-weight: bold;
 }
 
-.left-column .button {
-    text-align: center;
+.left-column input[type="text"] {
+    width: calc(80% - 70px); 
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 .left-column .submit-btn {
-    background-color: #6a6f78;
-    color: white;
-    border: none;
-    width: 30%;
-    padding: 15px;
-    text-decoration: none;
+    all: unset;
+    outline: revert;
+    border-radius: 20px;
+    text-align: center;
+    border-width: 1px;
+    padding: 13px 15px;  
+    width: 50%;  
+    font-size: 14px;
     cursor: pointer;
+    background-color: #72c6f4;
+    border-color:  #CCCCCC;
+    color: #ffff;
 }
+
