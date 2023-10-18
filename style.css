@@ -72,7 +72,7 @@
 }
 
 .left-column label {
-    margin: 10px 10px;
+    margin: 10px 5px;
     display: block;
     font-weight: bold;
 }
@@ -103,7 +103,29 @@
 .right-column {
     background-image: linear-gradient(43deg,#637ec3 0%,#8af1ea 46%,#c5f143 100%);
     flex: 1;
-    padding: 30px 40px;
-        
+    padding: 30px 40px;     
+}
+
+.right-column .content {
+    display: flexbox;
+    align-content: center;
+     
+}
+
+.right-column .content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.right-column .content h4 {
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.right-column .content p {
+    font-size: 14px;
+    color: #ffff;
 }
 
