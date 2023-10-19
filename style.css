@@ -6,7 +6,7 @@
     padding: 30px 50px;
     margin-left: 60px;
     margin-right: 60px;
-    border: 2px solid #CCCCCC;  
+    column-gap: 60px;  
 }
 
 .left-column {
@@ -20,7 +20,7 @@
 }
 
 .message p {
-    padding-left: 200px;
+    padding-left: 380px;
 }
 
 .message p a {
@@ -29,9 +29,10 @@
 
 .social-sign-in {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
     margin-bottom: 40px;
+    width: 100%;
 }
 
 .social-sign-in button {
@@ -78,7 +79,7 @@
 }
 
 .left-column input[type="text"] {
-    width: calc(60% - 50px); 
+    width: calc(100% - 30px); 
     padding: 10px;
     border: 1px solid #CCCCCC;
     border-radius: 5px;
@@ -98,6 +99,7 @@
     background: linear-gradient(43deg,#637ec3 0%,#8af1ea 46%,#c5f143 100%);
     border-color:  #CCCCCC;
     color: #ffff;
+    width: 100%;
 }
 
 .right-column {
@@ -107,9 +109,9 @@
 }
 
 .right-column .content {
-    display: flexbox;
-    align-content: center;
-     
+    position: absolute;
+    top: 50%;
+    bottom: 50%;    
 }
 
 .right-column .content h1 {
