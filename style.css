@@ -1,12 +1,15 @@
 /* style.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 30px 50px;
     margin-left: 60px;
     margin-right: 60px;
-    column-gap: 60px;  
+    column-gap: 60px; 
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .left-column .logo img {
@@ -32,7 +35,7 @@
 }
 
 .message p {
-    padding-left: 380px;
+    padding-left: 350px;
 }
 
 .message p a {
@@ -47,6 +50,10 @@
     width: 100%;
 }
 
+.social-sign-in img {
+    padding-right: 4px;
+}
+
 .social-sign-in button {
     all: unset;
     outline: revert;
@@ -54,7 +61,7 @@
     text-align: center;
     border-width: 1px;
     padding: 12px 10px;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
     background-color: #ffff;
     border: 1px solid#CCCCCC; 
@@ -140,7 +147,7 @@
 }
 
 .right-column .content p {
-    font-size: 14px;
+    font-size: 16px;
     color: #ffff;
 }
 
