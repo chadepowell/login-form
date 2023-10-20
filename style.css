@@ -11,12 +11,13 @@
 
 .left-column .logo img {
     width: 35px;
+    height: 30px;
 }
 
-.left-column .logo p a {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
+ .left-column .logo {
+    display: flex;
+    justify-content: space-between;
+    
 }
 
   
@@ -118,6 +119,7 @@
     flex: 1;
     padding: 30px 40px;     
 }
+
 
 .right-column .content {
     position: absolute;
